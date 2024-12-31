@@ -9,7 +9,7 @@ public class InputPanel extends JPanel {
                 "Received Heal", "HP", "SP", "HP %", "SP %", "Skill Damage"};
 
         for (String label : labels) {
-            JLabel jLabel = new JLabel(text;);
+            JLabel jLabel = new JLabel(label);
             JLabel.setHorizontalAlignment(SwingConstants.CENTER);
             add(JLabel);
 
